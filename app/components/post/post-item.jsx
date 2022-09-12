@@ -1,11 +1,11 @@
 import Link from 'next/link';
 
 function PostItem(props) {
-  const { id, title, image } = props;
+  const { id, slug, title, image } = props;
 
   return (
     <>
-      <Link href={`/${id}`}>
+      <Link href={`/${slug}`}>
         <a className="text-decoration-none">
           <img
             src={`/assets/img/${image}`}

@@ -9,7 +9,12 @@ function PostList(props) {
         {allPost.map((post) => (
           <div className="col mb-2" key={post.id}>
             <div className="card h-100 shadow">
-              <PostItem id={post.id} title={post.title} image={post.image} />
+              <PostItem
+                id={post.id}
+                slug={post.slug}
+                title={post.title}
+                image={post.image}
+              />
             </div>
           </div>
         ))}

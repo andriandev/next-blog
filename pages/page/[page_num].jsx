@@ -3,33 +3,45 @@ import PostList from '@/components/post/post-list';
 import Pagination from '@/components/shared/pagination';
 import { getAllPost, getPageCount } from '@/config/data';
 
-function Home(props) {
+function HomePageNum(props) {
   const { post, pageCount, page } = props;
 
   return (
     <>
-      <MetaHead title="Next Bootstrap" description="Next bootstrap layout" />
+      <MetaHead
+        title={`Next Bootstrap ${'Page ' + page}`}
+        description="Next bootstrap layout"
+        index="noindex"
+      />
       <PostList allPost={post} />
       <Pagination pageCount={pageCount} page={page} />
     </>
   );
 }
 
-export async function getStaticProps() {
-  const post = getAllPost();
+export async function getStaticProps(context) {
+  const { params } = context;
+  const page = params.page_num;
+  const post = getAllPost(page);
 
-  if (!post) {
+  if (post.length === 0) {
     return {
       notFound: true,
     };
   }
 
   const pageCount = getPageCount();
-  const page = 1;
 
   return {
     props: { post: post, pageCount: pageCount, page: page },
   };
 }
 
-export default Home;
+export async function getStaticPaths() {
+  return {
+    paths: [],
+    fallback: 'blocking',
+  };
+}
+
+export default HomePageNum;

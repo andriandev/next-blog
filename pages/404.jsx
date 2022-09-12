@@ -9,12 +9,16 @@ function NotFound() {
         description="404 Page Not Found"
         index="noindex"
       />
-      <h1>404 Page Not Found</h1>
-      <Link href="/">
-        <button type="button" className="btn btn-primary btn-sm">
-          Back Home &raquo;
-        </button>
-      </Link>
+      <div className="card mt-3 shadow">
+        <div className="card-body">
+          <h1>404 Page Not Found</h1>
+          <Link href="/">
+            <button type="button" className="btn btn-primary btn-sm">
+              Back Home &raquo;
+            </button>
+          </Link>
+        </div>
+      </div>
     </>
   );
 }
