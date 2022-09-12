@@ -33,7 +33,7 @@ function MetaHead(props) {
         rel="canonical"
         href={
           props.canonical
-            ? props.canonical + urlPath
+            ? process.env.NEXT_PUBLIC_BASE_URL + '/' + props.canonical
             : process.env.NEXT_PUBLIC_BASE_URL + urlPath
         }
       ></link>

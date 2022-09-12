@@ -52,11 +52,6 @@ function Header() {
                   <a className="nav-link">About</a>
                 </ActiveLink>
               </li>
-              <li className="nav-item">
-                <ActiveLink href="/state" activeClassName="active">
-                  <a className="nav-link">State</a>
-                </ActiveLink>
-              </li>
             </ul>
           </div>
         </div>
