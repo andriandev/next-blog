@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 function PostItem(props) {
@@ -7,7 +8,9 @@ function PostItem(props) {
     <>
       <Link href={`/${slug}`}>
         <a className="text-decoration-none">
-          <img
+          <Image
+            width={600}
+            height={350}
             src={`/assets/img/${image}`}
             className="card-img-top"
             alt={title}
