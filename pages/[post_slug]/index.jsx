@@ -14,7 +14,7 @@ function Post(props) {
         canonical={post.id}
       />
       <div className="row my-3">
-        <div className="col col-md-8 mb-3">
+        <div className="col-12 col-md-8 mb-3">
           <div className="card">
             <div className="card-body">
               <Image
@@ -29,7 +29,7 @@ function Post(props) {
             </div>
           </div>
         </div>
-        <div className="col col-md-4 mb-3">
+        <div className="col-12 col-md-4 mb-3">
           <div className="card">
             <div className="card-body">
               <h5>Recent Post</h5>

@@ -5,7 +5,7 @@ function Pagination(props) {
 
   return (
     <nav>
-      <ul className="pagination pagination-sm justify-content-center">
+      <ul className="pagination justify-content-center">
         <li className={`page-item${page <= 1 || !page ? ' disabled' : ''}`}>
           <Link href={page <= 1 ? '/' : `/page/${page - 1}`}>
             <a className="page-link">&laquo; Prev</a>
