@@ -8,7 +8,7 @@ function Home(props) {
 
   return (
     <>
-      <MetaHead title="Next Bootstrap" description="Next bootstrap layout" />
+      <MetaHead title="Next Blog" description="Next blog layout" />
       <PostList allPost={post} />
       <Pagination pageCount={pageCount} page={page} />
     </>

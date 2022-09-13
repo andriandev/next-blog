@@ -9,8 +9,8 @@ function HomePageNum(props) {
   return (
     <>
       <MetaHead
-        title={`Next Bootstrap ${'Page ' + page}`}
-        description="Next bootstrap layout"
+        title={`Next Blog${' | Page ' + page}`}
+        description="Next blog layout"
         index="noindex"
       />
       <PostList allPost={post} />
