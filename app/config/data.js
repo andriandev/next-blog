@@ -53,7 +53,7 @@ const DUMMY_POSTS = [
     title: 'Programming for seven people',
     description:
       'Everyone can learn to code! Yes, everyone! In this live event, we are going to go through all the key basics and get you started with programming as well.',
-    image: 'image-one.jpg',
+    image: 'image-seven.jpg',
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ const DUMMY_POSTS = [
     title: 'Programming for eight people',
     description:
       "We know: Networking is no fun if you are an introvert person. That's why we came up with this event - it'll be so much easier. Promised!",
-    image: 'image-two.jpg',
+    image: 'image-eight.jpg',
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ const DUMMY_POSTS = [
     title: 'Programming for nine people',
     description:
       'You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.',
-    image: 'image-three.jpg',
+    image: 'image-nine.jpg',
   },
   {
     id: 10,
@@ -77,7 +77,7 @@ const DUMMY_POSTS = [
     title: 'Programming for ten people',
     description:
       'You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.',
-    image: 'image-four.jpg',
+    image: 'image-ten.jpg',
   },
   {
     id: 11,
@@ -85,7 +85,7 @@ const DUMMY_POSTS = [
     title: 'Programming for eleven people',
     description:
       'You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.',
-    image: 'image-five.jpg',
+    image: 'image-eleven.jpg',
   },
   {
     id: 12,
@@ -93,7 +93,7 @@ const DUMMY_POSTS = [
     title: 'Programming for twelve people',
     description:
       'You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.',
-    image: 'image-six.jpg',
+    image: 'image-twelve.jpg',
   },
   {
     id: 13,
@@ -149,7 +149,7 @@ const DUMMY_POSTS = [
     title: 'Programming for nineteen people',
     description:
       'Everyone can learn to code! Yes, everyone! In this live event, we are going to go through all the key basics and get you started with programming as well.',
-    image: 'image-one.jpg',
+    image: 'image-seven.jpg',
   },
   {
     id: 20,
@@ -157,7 +157,7 @@ const DUMMY_POSTS = [
     title: 'Programming for twenty people',
     description:
       "We know: Networking is no fun if you are an introvert person. That's why we came up with this event - it'll be so much easier. Promised!",
-    image: 'image-two.jpg',
+    image: 'image-eight.jpg',
   },
   {
     id: 21,
@@ -165,7 +165,7 @@ const DUMMY_POSTS = [
     title: 'Programming for twenty one people',
     description:
       'You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.',
-    image: 'image-three.jpg',
+    image: 'image-nine.jpg',
   },
   {
     id: 22,
@@ -173,7 +173,7 @@ const DUMMY_POSTS = [
     title: 'Programming for twenty two people',
     description:
       'You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.',
-    image: 'image-four.jpg',
+    image: 'image-ten.jpg',
   },
   {
     id: 23,
@@ -181,7 +181,7 @@ const DUMMY_POSTS = [
     title: 'Programming for twenty three people',
     description:
       'You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.',
-    image: 'image-five.jpg',
+    image: 'image-eleven.jpg',
   },
   {
     id: 24,
@@ -189,7 +189,7 @@ const DUMMY_POSTS = [
     title: 'Programming for twenty four people',
     description:
       'You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.',
-    image: 'image-six.jpg',
+    image: 'image-twelve.jpg',
   },
 ];
 
