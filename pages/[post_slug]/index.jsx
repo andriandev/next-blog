@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import Link from 'next/link';
 import MetaHead from '@/components/shared/meta-head';
+import Sidebar from '@/layout/sidebar';
 import { getPostBySlug, getAllPost } from '@/config/data';
 
 function Post(props) {
@@ -11,11 +11,11 @@ function Post(props) {
       <MetaHead
         title={post.title}
         description={post.description}
-        canonical={post.id}
+        canonical={post.slug}
       />
-      <div className="row my-3">
+      <div className="row">
         <div className="col-12 col-md-8 mb-3">
-          <div className="card">
+          <div className="card shadow-sm">
             <div className="card-body">
               <Image
                 width={600}
@@ -29,22 +29,7 @@ function Post(props) {
             </div>
           </div>
         </div>
-        <div className="col-12 col-md-4 mb-3">
-          <div className="card">
-            <div className="card-body">
-              <h5>Recent Post</h5>
-              <ol className="list-group list-group-numbered">
-                {allPost.map((post) => (
-                  <Link href={`/${post.slug}`} key={post.id}>
-                    <a className="text-decoration-none">
-                      <li className="text-primary"># {post.title}</li>
-                    </a>
-                  </Link>
-                ))}
-              </ol>
-            </div>
-          </div>
-        </div>
+        <Sidebar allPost={allPost} />
       </div>
     </>
   );

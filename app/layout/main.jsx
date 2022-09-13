@@ -5,7 +5,7 @@ function Main(props) {
   return (
     <>
       <Header />
-      <div className="container">{props.children}</div>
+      <div className="container my-3">{props.children}</div>
       <Footer />
     </>
   );

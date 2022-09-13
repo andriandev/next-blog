@@ -4,7 +4,7 @@ function Pagination(props) {
   const { page, pageCount } = props;
 
   return (
-    <nav>
+    <nav className="mt-3">
       <ul className="pagination justify-content-center">
         <li className={`page-item${page <= 1 || !page ? ' disabled' : ''}`}>
           <Link href={page <= 1 ? '/' : `/page/${page - 1}`}>

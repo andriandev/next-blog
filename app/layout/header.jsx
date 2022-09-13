@@ -21,7 +21,7 @@ function Header() {
       >
         <div className="container">
           <ActiveLink href="/" activeClassName="">
-            <a className="navbar-brand">Next Boot</a>
+            <a className="navbar-brand">Next Blog</a>
           </ActiveLink>
           <button
             className="navbar-toggler p-0 border-0"

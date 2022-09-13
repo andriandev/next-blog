@@ -9,7 +9,7 @@ function NotFound() {
         description="404 Page Not Found"
         index="noindex"
       />
-      <div className="card mt-3 shadow">
+      <div className="card shadow-sm">
         <div className="card-body">
           <h1>404 Page Not Found</h1>
           <Link href="/">
