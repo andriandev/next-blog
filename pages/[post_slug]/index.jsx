@@ -17,13 +17,15 @@ function Post(props) {
         <div className="col-12 col-md-8 mb-3">
           <div className="card shadow-sm">
             <div className="card-body">
-              <Image
-                width={600}
-                height={350}
-                src={`/assets/img/${post.image}`}
-                alt={post.title}
-                className="rounded"
-              />
+              <div className="text-center">
+                <Image
+                  width={600}
+                  height={350}
+                  src={`/assets/img/${post.image}`}
+                  alt={post.title}
+                  className="rounded"
+                />
+              </div>
               <h1>{post.title}</h1>
               <p>{post.description}</p>
             </div>
