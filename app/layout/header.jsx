@@ -53,6 +53,26 @@ function Header() {
                 </ActiveLink>
               </li>
             </ul>
+            <ul
+              onClick={handleClick}
+              className="navbar-nav ms-auto mb-2 mb-lg-0"
+            >
+              <li className="nav-item">
+                <ActiveLink href="/auth/register" activeClassName="active">
+                  <a className="nav-link">Register</a>
+                </ActiveLink>
+              </li>
+              <li className="nav-item">
+                <ActiveLink href="/auth/login" activeClassName="active">
+                  <a className="nav-link">Login</a>
+                </ActiveLink>
+              </li>
+              <li className="nav-item">
+                <ActiveLink href="/profile" activeClassName="active">
+                  <a className="nav-link">Profile</a>
+                </ActiveLink>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
